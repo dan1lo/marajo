@@ -1,0 +1,175 @@
+<!--
+P.letreiro { font-family : Trebuchet MS; font-size: 9pt; font-weight: bold; }
+P.titulo   { font-family : Verdana, Arial; font-size: 11pt; color : #0099CC; font-weight: bold; }
+P.fip   { font-family : Verdana, Arial; font-size: 7pt; color : #808080;  }
+P.faixa    { font-family : Arial, Helvetica; font-size: 9pt; font-weight: normal; color: #3399CC; }
+A.letreiro { font-family : Trebuchet MS; font-size: 9pt; font-weight: Bold; color: #000099; text-decoration : none; }
+A.letreiro:VISITED { font-family : Trebuchet MS; font-size: 9pt; font-weight: Bold; color: #000099;  text-decoration : none; }
+A.letreiro:ACTIVE { text-decoration : none; }
+A.letreiro:HOVER { color : #ca2c1a; text-decoration : none; }
+
+A.barra { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : Navy; text-decoration : none; }
+A.barra:VISITED { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : Navy; text-decoration : none; }
+A.barra:ACTIVE { text-decoration : none; }
+A.barra:HOVER { color: #ca2c1a; TEXT-DECORATION: none }
+
+A.barrac { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : #828282; text-decoration : none; }
+A.barrac:VISITED { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : #828282; text-decoration : none; }
+A.barrac:ACTIVE { text-decoration : none; }
+A.barrac:HOVER { color: #ca2c1a; TEXT-DECORATION: none }
+
+A.menu { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : Black; text-decoration : none; }
+A.menu:VISITED { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : Black; text-decoration : none; }
+A.menu:ACTIVE { text-decoration : none; }
+A.menu:HOVER { color : #FFCC33; text-decoration : none; }
+
+A.item { font-family : Arial, Helvetica, sans-serif; font-size : 10px; font-weight : bold; color : White; text-decoration : none; }
+A.item:VISITED { font-family : Arial, Helvetica, sans-serif; font-size : 10px; font-weight : bold; color : White; text-decoration : none; }
+A.item:ACTIVE { text-decoration : none; }
+A.item:HOVER { color : #FFCC33; text-decoration : none; }
+
+A.menuid { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : Navy; text-decoration : none; }
+A.menuid:VISITED { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : Navy; text-decoration : none; }
+A.menuid:ACTIVE { text-decoration : none; }
+A.menuid:HOVER { color : #FFCC33; text-decoration : none; }
+
+A.menu2 { font-family : Arial, Helvetica, sans-serif; font-size : 10px; font-weight : bold; color : Black; text-decoration : none; }
+A.menu2:VISITED { font-family : Arial, Helvetica, sans-serif; font-size : 10px; font-weight : bold; color : Black; text-decoration : none; }
+A.menu2:ACTIVE { text-decoration : none; }
+A.menu2:HOVER { color : #FFCC33; text-decoration : none; }
+
+.tit {COLOR: Navy; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none }
+
+TD { font-family : Arial; font-size : 12px; color : Navy; }
+.txt { font-family : Arial; font-size : 11px; color : #CCFFFF; }
+.Titulo { font-family : Arial; font-size : 13px; color: Navy; }
+.Titulo1 { font-family : Arial; font-size : 11px; color: Navy; font-weight : bold; }
+.Titulo2 { font-family : Arial; font-size : 12px; color: Navy; font-weight : bold; }
+.Titulo3 { font-family : Arial; font-size : 12px; color: #FFCC33; font-weight : bold; }
+.deb  { color : Red;	text-align : right; }
+.cred  { color : Navy; text-align : right;}
+.neutro  { color : Black; text-align : right; }
+.center  { text-align : Center; }
+.right  { text-align : Right; }
+.href {font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : Navy; text-decoration : none;}
+.v1 { line-height : 100%;vertical-align :text-bottom;}
+.v1m {	font-size : 12px;font-family : Arial;}
+.v2{font-weight : normal;background : #F4DA00;font-family : "Courier New", Courier, monospace;font-size : 8pt;}
+.v3{font-size : 8pt;font-weight : normal;background : #000099;color : #F4DA00;	font-family : "Courier New", Courier, monospace;}
+
+.dl2 {COLOR: #ffffff; FONT-SIZE: 12px; FONT-WEIGHT: bold; TEXT-DECORATION: none}
+.dl3 {COLOR: #ffffff; FONT-SIZE: 10px; FONT-WEIGHT: bold; TEXT-DECORATION: none}
+
+
+PRE { position : relative; color : Navy; font-weight : normal; font-style : normal; font-family : monospace; font-size : 12px; }
+.v1 {	display : inline;font-family : "Courier New", Courier, monospace;font-size : 10pt;}
+.v2 {	display : inline;font-family : "Courier New", Courier, monospace;font-size : 10pt;background-color : #F4DA00;font-weight : bolder;}
+.v3 {	display : inline;font-family : "Courier New", Courier, monospace;font-size : 10pt;color : #F4DA00;background-color : #000099;font-weight : bolder;}
+.v011{font-family : "Courier New", Courier, monospace;font-size : 9pt;display :inline;}
+.v011p{	font-family : "Times New Roman", Times, serif;	font-size : 9pt;display : inline;}
+.v011D{	font-family : "Courier New", Courier, monospace;font-size : 9pt;color : Red;display : inline;}
+.v011N{font-family : "Courier New", Courier, monospace;font-size : 9pt;color : Black;display : inline;}
+.titnavy{font-family : "Courier New", Courier, monospace;font-size : 9pt;font-weight : 700;display : inline;}
+.titwhite{	font-family : "Courier New", Courier, monospace;font-size : 9pt;font-weight : 700;display : inline;color : White;}
+
+.desc	{ visibility: hidden; }
+
+.boldt {font-weight : bold;}
+.redt {font-weight : normal; color : #ff0000;}
+.redbt {font-weight : bold; color : #ff0000;}
+
+
+
+
+A.itemBarra { font-family : Arial,Trebuchet Ms; font-size : 11px; font-weight : bold; color : navy; text-decoration : none; }
+A.itemBarra:VISITED { font-family :  Arial,Trebuchet Ms; font-size : 11px; font-weight : bold; color : navy; text-decoration : none; }
+A.itemBarra:ACTIVE { text-decoration : none; }
+A.itemBarra:HOVER { color : blue; text-decoration : none; }
+
+A.itemMenu { font-family : Arial, Helvetica, sans-serif; font-size : 10px; color : navy; text-decoration : none; }
+A.itemMenu:VISITED { font-family : Arial, Helvetica, sans-serif; font-size : 10px; font-weight : bold; color : navy; text-decoration : none; }
+A.itemMenu:ACTIVE { text-decoration : none; }
+A.itemMenu:HOVER { color :#3399ff ; text-decoration : none; }
+
+A.tituloItem { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : navy; text-decoration : none; }
+A.tituloItem:VISITED { font-family : Arial, Helvetica, sans-serif; font-size : 11px; font-weight : bold; color : navy; text-decoration : none; }
+A.tituloItem:ACTIVE { text-decoration : none; }
+A.tituloItem:HOVER { color : #3399ff; text-decoration : none; }
+
+td.trTitulo { font-family:  trebuchet MS;	font-size: 14px; color: navy; font-weight: bolder;}
+td.trDisponivel { font-family:  trebuchet MS;	font-size: 11px; color: navy; font-weight: }
+td.trNaoDisponivel { font-family: trebuchet MS;	font-size: 11px; color: navy; font-weight: }
+td.loginTitulo { FONT-SIZE: 11px; COLOR: navy; FONT-FAMILY: trebuchet ms; font-weight: bolder;}
+input.login {	BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: trebuchet ms; BACKGROUND-COLOR: white; font-weight: bolder; background : fffffa;}
+Select { font-family: Tahoma; font-size: 11px;  margin-top : 1px;  background : fffffa; }
+.aviso { FONT-SIZE: 11px;COLOR: red;FONT-FAMILY: trebuchet ms;font-weight: bold;}
+td.conteudoCorpo { font-family : "Trebuchet MS"; font-size : 12px; color : navy; text-align: justify;}
+td.txtDestaque { font-family : "Trebuchet MS"; font-size : 13px; color : navy;}
+
+
+input.alinhadoADireita { text-align: Right; BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white; font-weight: normal; background : fffffa;}
+input.alinhadoAEsquerda { text-align: Left; BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white; font-weight: normal; background : fffffa;}
+input.alinhadoAoCentro { text-align: Center; BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white; font-weight: normal; background : fffffa;}
+input.text { text-align: Left; BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white; font-weight: normal; background : fffffa;}
+input.valor { text-align: Right; BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white; font-weight: normal; background : fffffa;}
+input.data { text-align: Right; BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white; font-weight: normal; background : fffffa;}
+select { text-align: Left; BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #f7f3f7; font-weight: normal; background : fffffa;}
+textarea { text-align: Left; BORDER-RIGHT: #bbbbbb 1px solid; BORDER-TOP: #bbbbbb 1px solid; FONT-SIZE: 11px; BORDER-LEFT: #bbbbbb 1px solid; COLOR: #000000; BORDER-BOTTOM: #bbbbbb 1px solid; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: white; font-weight: normal; background : fffffa;}
+.tituloTransacao { font-family : Arial; font-size : 13px; color: Navy; font-weight : bold;}
+.nomeInput12 { font-family : Arial; font-size : 12px; color: Navy; font-weight : bold;}	
+.nomeInput11 { font-family : Arial; font-size : 11px; color: Navy; font-weight : bold;}	
+.nomeInput10 { font-family : Arial; font-size : 10px; color: Navy; font-weight : bold;}	
+.textoCabecalho10 { font-family : Arial; font-size : 10px; color: Navy; font-weight : bold;}	
+.textoCabecalho11 { font-family : Arial; font-size : 11px; color: Navy; font-weight : bold;}	
+.textoCabecalhoAmarelo10 {font-family : Arial; font-size : 10px; color: Yellow; font-weight : normal;}
+.textoCabecalhoAmarelo11 {font-family : Arial; font-size : 11px; color: Yellow; font-weight : normal;}
+.textoCabecalhoAmarelo12 {font-family : Arial; font-size : 12px; color: Yellow; font-weight : bold;}
+.textoCabecalhoAmarelo13 {font-family : Arial; font-size : 13px; color: Yellow; font-weight : bold;}
+.textoLancamentos11 {font-family : Arial; font-size : 11px; color: Navy; font-weight : normal;}
+.textoAviso11 {font-family : Arial; font-size : 11px; color: Navy; font-weight : normal;}
+.textoAvisoNegrito12 {font-family : Arial; font-size : 12px; color: Navy; font-weight : bold;}
+.textoAvisoVermelho {font-family : Arial; font-size : 11px; color: Red; font-weight : normal;}
+.textoAvisoVermelho12 {font-family : Arial; font-size : 12px; color: Red; font-weight : bold;}
+.textoAvisoVermelho10 {font-family : Arial; font-size : 10px; color: Red; font-weight : normal;}
+.textoErro {font-family : Arial; font-size : 11px; color: Red; font-weight : bold;}
+.textoBranco {font-family : Arial; font-size : 11px; color: White; font-weight : bold;}
+.textoPreto {font-family : Arial; font-size : 11px; color: Black; font-weight : bold;}
+.textoAzul12 { font-family : Arial; font-size : 12px; color: Navy; font-weight : bold;}	
+.textoAzul11 { font-family : Arial; font-size : 11px; color: Navy; font-weight : bold;}	
+.textoAzul10 { font-family : Arial; font-size : 10px; color: Navy; font-weight : bold;}	
+.textoFormatado { font-family : courier new; font-size : 12px; color: Navy; font-weight : normal;}	
+
+.itgTituloGrupo  { font-family: Arial; font-size: 13px; font-weight: bold; color: black; }
+.itgTituloPersonalizacao { font-family:trebuchet ms, Arial; font-size: 11px; font-weight: bold; color:black; vertical-align : top; }
+.itgTituloComum { font-family:trebuchet ms, Arial; font-size: 11px; color:black; vertical-align : top; }
+.itgConteudoComum { font-family:trebuchet ms, Arial; font-size: 11px; color:black; vertical-align : top; }
+.itgDebito { font-family:trebuchet ms, Arial; font-size: 11px; color:red; vertical-align : top; }
+.itgCredito { font-family:trebuchet ms, Arial; font-size: 11px; color:blue; vertical-align : top; }
+a.itgLink  { font-family: trebuchet ms, Arial; font-size: 11px; font-weight: bold; color: #3182ED; text-decoration: none;}
+a.itgLink:Hover	{text-decoration: underline;}
+
+td.loginInteligenteNome {font-family : trebuchet MS;font-size : 12px;font-weight : bold;text-align : left;}
+td.loginInteligenteValor {font-family : trebuchet MS;font-size : 12px;font-weight :none;text-align : right;}
+
+.txtdestaque {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 11px;
+	color : #000000;
+}
+A.produtos {
+	font-family : arial;
+	font-size : 11px;
+	color: #000084;
+	text-decoration:none;
+	font-weight: normal;
+}
+A.produtos:hover {
+	font-family : arial;
+	font-size : 11px;
+	color: #0033FF;
+	text-decoration:none;
+	font-weight: normal;
+}
+
+
+-->

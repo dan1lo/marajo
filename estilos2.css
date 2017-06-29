@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin: 0;
+    background: transparent;
+}
+#geral{
+    background-color: #FFF;
+    width: 700px;
+    margin: 0 auto;
+}
+#topo {
+	width: 700px;
+	border-bottom-width: 4px;
+	border-bottom-style: solid;
+	border-bottom-color: #F60;
+}
+#meio {
+	width: 700px;
+	overflow: hidden;
+    
+}
+#coluna-meio {
+	
+	width: 700px;
+    
+    
+}
+#coluna-lateral {
+	float: left;
+	width: 200px;
+
+}
+
+#rodape {
+	width: 700px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #333;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+    overflow: hidden;
+}
+.lateral-titulo {
+	margin: 10px;
+	width: 180px;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #F60;
+}
+
+.lateral-texto {
+	width: 180px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	padding: 10px;
+}
+.lateral-anuncio {
+	width: 180px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	background-color: #EEEEEE;
+}

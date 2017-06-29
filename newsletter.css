@@ -1,0 +1,15 @@
+@charset "utf-8";
+/* CSS Document */
+
+#newsletter{
+
+
+}
+.newLetra{
+font-family:trebuchet ms;
+font-size:12px;
+color:#006CA0;
+}
+.newsbg{
+background-image:url(imagens/newbg.gif);
+}

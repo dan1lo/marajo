@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    margin: 0;
+    background: transparent;
+}
+#geral{
+    background-color: #FFF;
+    width: 1000px;
+    margin: 0 auto;
+}
+#topo {
+	width: 1000px;
+	border-bottom-width: 0px;
+	overflow: hidden;
+}
+#meio {
+	width: 1000px;
+	overflow: hidden;
+    
+}
+#coluna-meio {
+	float:left;
+	width: 800px;
+    
+    
+    
+}
+#coluna-lateral {
+	float: left;
+	width: 141px;
+ 
+}
+
+#rodape {
+	width: 1000px;
+	padding: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+    overflow: hidden;
+}
+.lateral-titulo {
+	margin: 10px;
+	width: 180px;
+	border-bottom-width: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #F60;
+}
+
+.lateral-texto {
+	width: 180px;
+	/*margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;*/
+	padding: 1px;
+}
+.
+#rodape1{
+ 	width:1000px; 
+ 	height:53px;
+	border:0;
+	overflow: hidden;
+ }
+#rodapeleft{
+ 
+ width:61px;
+ height:156px; 
+ border:0;
+ float:left; 
+ 
+ }
+ #rodapeTel{
+ width:282px;
+ height:156px;
+ border:0;
+ float:left;
+ }
+ #rodapeDireitos{
+  width:270;
+  height:156; 
+  border:0;
+  float:left; 
+ }
+ #rodaperight{
+  width:337; 
+  height:156; 
+  border:0;
+  float:left; 
+ }
+ 
+ #topoDentro{
+ 	width:900px;
+	float:left;
+ 
+ }
+ #topoFora{
+ 	width:100px;
+ 	float:left;
+
+ }
+ #lateral1{
+ width:142px;
+ height:58px;
+ border:0px;
+ }
+ 
+ #textocentro{
+ text-align:center
+ }
+ #coluna-lateralLogin{
+ 	float: left;
+	width: 356px;	
+	height: 200px;
+ 
+ 
+ }
+ #coluna-meioLogin {
+	float:left;
+	width: 500px;
+    
+    }
+	
+#LateralEnquete{
+width: 20px;
+float:left;
+height:auto;
+}
+#LateralEnquete2{
+width:122px;
+float:left;
+
+}	
+.titulo{
+font-size:16px;
+
+
+}
+.lateral-produtos{
+width:240px;
+height:399px;
+float:left;
+}
+.produtos{
+float:left;
+
+}
+.menu-produtos{
+font-family: Trebuchet MS;
+
+
+}
+.produtoBusca{
+float:left;
+width:560px;
+
+}
+.AbsWrap {
+	width: 100%;
+	position: relative;
+}
+.rowWrap {
+	width: 100%;
+}
+.clearfloat {
+	clear:both;
+	height:0px;
+}
+#main {
+
+	width:950px;
+	margin: 0px auto 0px 0px;
+	border: 0px solid #f0f0f0;
+
+}
+#rodape_r1_c1 {
+	margin-left:0px;
+	margin-top:0px;
+	width:40px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+
+}
+#rodape_r1_c2 {
+	margin-left:0px;
+	margin-top:0px;
+	width:280px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+
+}
+#rodape_r1_c3 {
+	margin-left:0px;
+	margin-top:0px;
+	width:339px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+
+}
+#rodape_r1_c4 {
+	margin-left:0px;
+	margin-top:0px;
+	width:291px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+
+}
+.tituloNoticia{
+font-size:20px;
+
+}

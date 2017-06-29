@@ -1,0 +1,90 @@
+body {
+	background-color: #ffffff;
+	margin:0px;
+	padding:0px;
+}
+.p {
+	margin:0px;
+	padding:0px;
+	font-size: inherit;
+	font-family: inherit;
+	font-weight: inherit;
+	text-align: inherit;
+	color: inherit;
+	line-height: inherit;
+	vertical-align: top;
+}
+p {
+	padding-top:0px;
+	margin-top:0px;
+}
+img {
+	border:0px;
+}
+div {
+	margin:0px;
+	padding:0px;
+	font-family:verdana; font-size:12px;
+}
+.AbsWrap {
+	width: 100%;
+	position: relative;
+}
+.rowWrap {
+	width: 100%;
+}
+.clearfloat {
+	clear:both;
+	height:0px;
+}
+a:link, a:visited{
+	COLOR:inherit;
+	text-decoration:inherit;
+}
+#main {
+
+	width:950px;
+	margin: 0px auto 0px 0px;
+	border: 0px solid #f0f0f0;
+
+}
+#rodape_r1_c1 {
+	margin-left:0px;
+	margin-top:0px;
+	width:40px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+
+}
+#rodape_r1_c2 {
+	margin-left:0px;
+	margin-top:0px;
+	width:280px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+
+}
+#rodape_r1_c3 {
+	margin-left:0px;
+	margin-top:0px;
+	width:339px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+
+}
+#rodape_r1_c4 {
+	margin-left:0px;
+	margin-top:0px;
+	width:291px;
+	height:156px;
+	margin-bottom:0px;
+	float:left;
+	display:inline;
+
+}

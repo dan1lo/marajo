@@ -1,0 +1,111 @@
+/**
+ * APG - Gerador de Enquetes - Versão 1.0
+ * Copyright (C) 2003  Álvaro Paniago Gonçalves <retafinal@yahoo.com>
+ * http://www.grandems.hpg.com.br
+ * http://www.esportems.com.br
+ *
+ * This library is free software; you can redistribute it and/or
+ * modify it under the terms of the GNU Lesser General Public
+ * License as published by the Free Software Foundation; either
+ * version 2.1 of the License, or (at your option) any later version.
+ *
+ * This library is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ * Lesser General Public License for more details.
+ *
+ * You should have received a copy of the GNU Lesser General Public
+ * License along with this library; if not, write to the Free Software
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
+ *
+ * @author  Álvaro Paniago Gonçalves <retafinal@yahoo.com>
+ * @version 1.0
+ */
+
+
+
+Este arquivo contém a versão 1.0 do sistema de enquetes que desenvolvi depois que tentei usar alguns pela net. 
+Uns, completos demais e com recursos até, ao meu ver, desnecessários para o usuário final.
+Daí, surgiu esta minha idéia de montar uma coisa simples, mas funcional.
+Consegui então concluir estas rotinas e por ter gostado do resultado, quis compartilhar com os demais colegas que trabalham com o PHP e MySql.
+
+
+Contém no pacote
+----------------
+apgconecta.php -> para fazer conexão com o banco de dados
+
+Para administração
+   apgindex.php -> página principal para gerenciar as enquetes
+   apgincluiresposta.php -> para cadastrar as opções de resposta das perguntas
+
+Para montar a enquete no site
+   apgvota.php -> responsável por gerar a enquete na página (site)
+   apgresu.php -> que grava o voto e monta o resultado
+
+estiloIE.css -> folha de estilo
+
+g1.gif, g2.gif ... g10.gif -> barras para montar os gráficos (percentuais)
+leiame.txt -> este arquivo
+acompanha também, outros arquivos gifs (ativar_on.gif, ativar_off, back, lixo_on, lixo_off, ok, pesquisa, reply).
+
+
+Ultima atualização
+------------------
+Inicial -> 09.08.2003
+
+
+Instalação
+----------
+1. Crie uma pasta no seu servidor WEB e descarregue todos os arquivos nela
+2. Crie um banco com o nome: enquete
+3. Crie as tabelas (perguntas e respostas) conforme descrição abaixo (utilize o phpmyadmin para isso):
+
+CREATE TABLE perguntas (
+  id mediumint(9) NOT NULL auto_increment,
+  pergunta varchar(50) default NULL,
+  status char(1) default NULL,
+  data datetime default NULL,
+  UNIQUE KEY id (id)
+) TYPE=MyISAM;
+
+
+CREATE TABLE respostas (
+  unico mediumint(9) NOT NULL auto_increment,
+  id mediumint(9) default NULL,
+  resposta varchar(30) default NULL,
+  data datetime default NULL,
+  voto mediumint(4) default '0',
+  UNIQUE KEY unico (unico)
+) TYPE=MyISAM;
+
+
+Como cadastrar enquetes
+-----------------------
+Após a instalação, execute o seu navegador e acesse o endereço onde os scripts foram descompactados. Ex: http://meusite/apgindex.php 
+
+Com isso, bastará na tela que surgir, cadastrar as perguntas e dar OK.
+Para incluir as opções de respostas, basta clicar no ícone do meio. Uma nova tela surgirá, e aí é só cadastrar as opções (vale lembrar que disponibilizei somente 10 gifs (g1.gif, g2.gif.... g10.gif), com isso, para que os gráficos fiquem legais, inclua no máximo 10 opções. Caso queira aumentar, basta criar cópias dos gifs e assim aumentar suas possibilidades de respostas.
+
+Vale lembrar que o número de opções é ilimitado. Se quiser saber a opinião da torcida de um time de futebol sobre seus 11 jogadores, é só cadastrar o nome de cada um e pronto.
+
+
+Como utilizar no site
+---------------------
+Basta, de preferência dentro de uma tag TD, incluir as seguintes linhas:
+
+<?
+include ("./conecta.php");
+require ("./apgvota.php");
+?>
+
+
+Considerações finais
+--------------------
+Estou aberto a críticas e sugestões que irão coloborar para o aprimoramento da idéia. Se não gostou, não utilize, se gostou e quiser mandar alguma mensagem, fique a vontade: retafinal@yahoo.com
+
+
+[]s
+
+
+Álvaro Paniago Gonçalves
+Brasil
